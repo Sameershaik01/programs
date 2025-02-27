@@ -2,7 +2,7 @@ n=int(input())
 s=str(n)
 bkp=n
 c=0
-for i in s:
+for i in n:
     c+=int(i)**3
 if c==bkp:
     print('armstrong')
